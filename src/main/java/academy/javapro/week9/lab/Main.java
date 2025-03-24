@@ -70,7 +70,6 @@ public class Main {
             System.out.println("Found: " + foundMagazines.get(0));
         }
 
-
         // Test exception handling
         try {
             Magazine invalidMagazine = new Magazine("", 1, "January 2023");
@@ -87,4 +86,3 @@ public class Main {
         }
     }
 }
-
